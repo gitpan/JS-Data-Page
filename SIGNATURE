@@ -1,0 +1,35 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.68.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 aa77a27a4969477817d125ad5adda4876301cc67 Build.PL
+SHA1 d5850ed1766672b4d14a74980d73cc833e19f0bf CHANGES
+SHA1 6e0ef6fd898cfeca712579753b0a69161dbabde9 LICENSE
+SHA1 355eb2ca9a3361df6c1099e628d509d071436156 MANIFEST
+SHA1 456c07d1204f9d7725c825519c504ab8c53c6686 META.json
+SHA1 35ff9f7e92b6097451e795de52fda83ee46b33a7 META.yml
+SHA1 8e9992acf4faf120984aa89d859401723af4f550 README
+SHA1 bbfd15e578a0850fa565c6d81ecf587444aa43ad lib/JS/Data/Page.pm
+SHA1 821eb728a4817d479c2f973cc18d05034c66a3be share/JS/Data/Page.js
+SHA1 65cbb0ebbb185cc1df62f90f6366de6d1f49b586 tests/lib/Test/Builder.js
+SHA1 9e83fead6b2d347b83b12270bbabecd4315cf5c2 tests/lib/Test/More.js
+SHA1 39a01008d19aec346665325f01b6b5953ec4f38b tests/simple.html
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.11 (GNU/Linux)
+
+iEYEARECAAYFAk5OQC8ACgkQnvdMljFk9hVbeACfZcvfOSK9TOibFM7PGp4nmeRB
+hAoAoMS9PTI/6xsOIP7nRBZYc/BYMyFv
+=DnbR
+-----END PGP SIGNATURE-----
