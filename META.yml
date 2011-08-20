@@ -15,11 +15,11 @@ name: JS-Data-Page
 provides:
   JS::Data::Page:
     file: lib/JS/Data/Page.pm
-    version: 0
+    version: 0.02
 requires:
   File::ShareDir: 1.00
   JS: 0
 resources:
   homepage: http://search.cpan.org/dist/JS-Data-Page/
   license: http://dev.perl.org/licenses/
-version: 0
+version: 0.02

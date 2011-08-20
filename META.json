@@ -29,7 +29,7 @@
    "provides" : {
       "JS::Data::Page" : {
          "file" : "lib/JS/Data/Page.pm",
-         "version" : 0
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
@@ -39,5 +39,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0"
+   "version" : "0.02"
 }
